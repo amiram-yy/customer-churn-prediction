@@ -78,10 +78,11 @@ Random Forest and Logistic Regression are used as baseline models, with performa
    git clone <repository-url>
 
 2.	Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+	```bash
+	pip install -r requirements.txt
 
 4.	Run notebooks in order:
+	```bash
 	•	01_eda.ipynb
 	•	02_preprocessing.ipynb
 	•	03_modeling.ipynb
