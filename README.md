@@ -14,7 +14,6 @@ This project demonstrates how classical machine learning models can be used to a
 
 ## 🗂️ Project Structure
 
-	```bash
 	├── data/
 	│   ├── raw/
 	│   └── processed/
@@ -86,3 +85,10 @@ Random Forest and Logistic Regression are used as baseline models, with performa
 	•	01_eda.ipynb
 	•	02_preprocessing.ipynb
 	•	03_modeling.ipynb
+
+ ---
+
+ ## Medium
+
+	```bash
+	https://medium.com/@amirrezagholizadeh642/customer-churn-prediction-using-machine-learning-c13f95d3dcfa
