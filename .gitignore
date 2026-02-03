@@ -1,0 +1,23 @@
+# Data
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# Reports
+reports/figures/
+
+# OS files
+.DS_Store
+Thumbs.db
+
