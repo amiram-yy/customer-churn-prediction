@@ -1,108 +1,85 @@
-# customer-churn-prediction
-End-to-end customer churn prediction using data analysis and machine learning techniques.
+# Customer Churn Prediction
 
-# Customer Churn Prediction System
-
-## Overview
-This project focuses on analyzing customer behavior data to predict churn and identify key factors that influence customer retention. The goal is to build a clear, interpretable, and scalable data-driven pipeline that can support business decision-making.
-
-The project follows an end-to-end workflow, from data exploration and preprocessing to model training, evaluation, and insight generation.
+An end-to-end machine learning project focused on predicting customer churn using structured customer data.  
+The project covers the full pipeline from data preprocessing and feature engineering to model training, evaluation, and visualization.
 
 ---
 
-## Problem Statement
-Customer churn is a critical challenge for subscription-based businesses. Retaining existing customers is often more cost-effective than acquiring new ones.  
-This project aims to answer the following question:
+## 📌 Project Overview
 
-**Which customers are more likely to churn, and what factors contribute most to that behavior?**
-
----
-
-## Dataset
-- **Name:** Telco Customer Churn Dataset  
-- **Source:** Public dataset (Kaggle)  
-- **Description:**  
-  The dataset contains customer demographic information, account details, service usage patterns, and churn labels.
+Customer churn prediction is a common business problem where the goal is to identify customers who are likely to stop using a service.  
+This project demonstrates how classical machine learning models can be used to analyze customer behavior and build predictive models in a clean and reproducible way.
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 
-churn-prediction/
-│
 ├── data/
 │   ├── raw/
 │   └── processed/
-│
 ├── notebooks/
 │   ├── 01_eda.ipynb
-│   ├── 02_feature_engineering.ipynb
+│   ├── 02_preprocessing.ipynb
 │   └── 03_modeling.ipynb
-│
 ├── src/
+│   ├── config.py
 │   ├── preprocessing.py
 │   ├── features.py
 │   ├── train.py
-│   └── evaluate.py
-│
-├── reports/
-│   └── figures/
-│
-├── README.md
+│   ├── evaluate.py
+│   └── utils.py
 ├── requirements.txt
-└── .gitignore
+└── README.md
 
 ---
 
-## Methodology
-1. Data cleaning and preprocessing  
-2. Exploratory Data Analysis (EDA)  
-3. Feature engineering  
-4. Baseline model development  
-5. Model improvement and evaluation  
-6. Interpretation of results and insights  
+## ⚙️ Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
 ---
 
-## Models Used
-- Logistic Regression (Baseline)
-- Random Forest Classifier
+## 🔄 Workflow
+
+1. Exploratory Data Analysis (EDA)
+2. Data cleaning and preprocessing
+3. Feature engineering
+4. Model training (Logistic Regression, Random Forest)
+5. Model evaluation and comparison
+6. Visualization of results
 
 ---
 
-## Evaluation Metrics
-- Precision  
-- Recall  
-- F1-score  
-- ROC-AUC  
-- Confusion Matrix  
+## 📊 Model Evaluation
 
-Accuracy alone is not considered sufficient due to potential class imbalance.
+Models are evaluated using the following metrics:
 
----
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
 
-## Key Insights
-- Customers with shorter tenure show higher churn risk  
-- Month-to-month contracts are strongly correlated with churn  
-- Lack of additional services increases churn probability  
+Random Forest and Logistic Regression are used as baseline models, with performance compared using confusion matrices and ROC curves.
 
 ---
 
-## Tools & Technologies
-- Python  
-- Pandas, NumPy  
-- Scikit-learn  
-- Matplotlib / Seaborn  
-- Jupyter Notebook  
+## 🚀 How to Run
 
----
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
 
-## Future Improvements
-- Hyperparameter tuning  
-- Model explainability (e.g. SHAP)  
-- Deployment as a simple API  
+2.	Install dependencies:
+   pip install -r requirements.txt
 
----
-
-## Author
-Developed as a learning-focused, portfolio-ready project to demonstrate data analysis and machine learning fundamentals.
+3.	Run notebooks in order:
+	•	01_eda.ipynb
+	•	02_preprocessing.ipynb
+	•	03_modeling.ipynb
