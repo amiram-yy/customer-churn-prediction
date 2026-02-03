@@ -88,7 +88,6 @@ Random Forest and Logistic Regression are used as baseline models, with performa
 
  ---
 
- ## Medium
+ ## 🫵🏻 Medium (More Details)
 
-	```bash
 	https://medium.com/@amirrezagholizadeh642/customer-churn-prediction-using-machine-learning-c13f95d3dcfa
