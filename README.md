@@ -14,6 +14,7 @@ This project demonstrates how classical machine learning models can be used to a
 
 ## 🗂️ Project Structure
 
+```bash
 ├── data/
 │   ├── raw/
 │   └── processed/
@@ -77,9 +78,10 @@ Random Forest and Logistic Regression are used as baseline models, with performa
    git clone <repository-url>
 
 2.	Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
-3.	Run notebooks in order:
+4.	Run notebooks in order:
 	•	01_eda.ipynb
 	•	02_preprocessing.ipynb
 	•	03_modeling.ipynb
