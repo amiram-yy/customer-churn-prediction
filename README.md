@@ -14,23 +14,23 @@ This project demonstrates how classical machine learning models can be used to a
 
 ## 🗂️ Project Structure
 
-```bash
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_preprocessing.ipynb
-│   └── 03_modeling.ipynb
-├── src/
-│   ├── config.py
-│   ├── preprocessing.py
-│   ├── features.py
-│   ├── train.py
-│   ├── evaluate.py
-│   └── utils.py
-├── requirements.txt
-└── README.md
+	```bash
+	├── data/
+	│   ├── raw/
+	│   └── processed/
+	├── notebooks/
+	│   ├── 01_eda.ipynb
+	│   ├── 02_preprocessing.ipynb
+	│   └── 03_modeling.ipynb
+	├── src/
+	│   ├── config.py
+	│   ├── preprocessing.py
+	│   ├── features.py
+	│   ├── train.py
+	│   ├── evaluate.py
+	│   └── utils.py
+	├── requirements.txt
+	└── README.md
 
 ---
 
